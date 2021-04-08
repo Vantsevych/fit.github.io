@@ -72,6 +72,10 @@
         letter-spacing: 0px;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     .container {
         max-width: 1100px;
         padding: 0 20px;
@@ -133,6 +137,10 @@
         padding: 0 20px;
     }
 
+    .menu-a:hover {
+        color: #45b352;
+    }
+
     .menu-a {
         text-decoration: none;
         display: block;
@@ -166,6 +174,10 @@
         border-radius: 35px;
         font-size: 16px;
         z-index: 30;
+    }
+
+    .btn-slider > button:hover {
+        background-color: #2f6e0a;
     }
 
     .slider > img {
@@ -283,7 +295,28 @@
         margin-bottom: 28px;
     }
 
-    .categories-tag > a {
+    .read-more{
+        position: relative;
+        left: 70%;
+        margin-top: 5px;
+    }
+    .read-more > a {
+        color: #b4afaf;
+        background-color: #f0eaea;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 4px 18px;
+    }
+
+    .read-more > a:hover {
+        background-color: #afeccd;
+        color: white;
+    }
+
+    .categories-tag > a{
         color: rgba(0,0,0,.6);
         padding: 8px 12px;
         border-radius: 20px;
@@ -295,12 +328,22 @@
         font-weight: 400;
     }
 
+    .post-categories > li > a:hover {
+        color: rgb(44, 44, 44);
+        background-color: #d6d5d5;
+    }
+
     .entry-title {
         color: #256245;
         font-size: 18px;
         line-height: 28px;
         font-weight: 500;
         margin-bottom: 28px;
+    }
+
+    .entry-title:hover {
+        color: #41a072;
+        cursor: pointer;
     }
 
     .post-excerpt {
@@ -324,6 +367,11 @@
         color: #51a51f;
         text-decoration: none;
         margin-right: 10px
+    }
+
+    .name > a:hover {
+        color: #326b11;
+        text-decoration: underline;
     }
 
     .icon-clock {
@@ -353,10 +401,136 @@
         margin: 0 3px;
     }
 
-    .counter {
-        margin: 0 4px;
+    .hurt-icon:hover {
+        cursor: pointer;
+
     }
 
+    .counter {
+        margin: 0 4px;
+        color: rgb(187, 186, 186);
+    }
+
+
+/* My mission */
+
+    .my-mission {
+        padding-top: 120px;
+    }
+
+    .mission-left > h3 {
+        color: #256245;
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: 600;
+        margin-top: 55px;
+        margin-bottom: 55px;
+    }
+
+    .mission-left > p{
+        margin-bottom: 60px;
+    }
+
+    .mission-btn > a{
+        color: #256245;
+        background-color: #f0f4f2;
+        border-color: transparent;
+        padding: 10px 30px 10px 30px;
+        border-radius: 30px;
+    }
+
+    .mission-right > img {
+        width: 100%;
+    }
+
+/* Price */
+
+    .price-col {
+        padding: 0 30px;
+    }
+
+    .price-list-1, .price-list-3 {
+        background-color: #dfefd9;
+        padding: 60px 15% 40px;
+        border-radius: 20px;
+        text-align: center;
+        color:#256245;
+        width: 95%;
+    }
+
+    .price-list-2{
+        position: relative;
+        top: 50px;
+        background-color: #256245;
+        padding: 60px 15% 40px;
+        border-radius: 20px;
+        text-align: center;
+        color: #e5efd9;
+        width: 95%;
+    }
+
+    .plans {
+        text-align: center;
+        color: #256245;
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: 600;
+        margin: 50px 0;
+    }
+
+    .dollar {
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .packet {
+        font-size: 26px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+    .price-proposition{
+        margin-bottom: 45px;
+
+    }
+
+    .price-proposition > strong {
+        font-weight: 700;
+    }
+
+    .price-button, .price-button-2 {
+        display: block;
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        padding: 14px 40px 14px 40px;
+        border-width: 0px;
+        border-radius: 20px;
+        background-color: #256245;
+        color: #FFFFFF;
+    }
+
+    .price-button:hover {
+        background-color: #3b8a62;
+    }
+
+    .price-button-2 {
+        background-color: #e5efd9;
+        color: #256245;
+    }
+    .price-button-2:hover {
+        background-color: #b1b3b0;
+    }
+
+    .footer-price{
+        text-align: center;
+        color: #7f9b8c;
+        margin: 100px 0 50px 0;
+    }
 
 
 
