@@ -1,0 +1,375 @@
+
+    *{
+        box-sizing: border-box;
+    }
+
+@media (min-width: 1200px) {
+
+
+    /* size */
+
+    .col-lg-1 {
+        flex: 0 0 8.33331%;
+        max-width: 8.33331%;
+    }
+    .col-lg-2 {
+    flex: 0 0 16.66667%;
+    min-width: 16.66667%;
+    }
+    .col-lg-3 {
+    flex: 0 0 24.99999%;
+    min-width: 24.99999%;
+    }
+    .col-lg-4 {
+        flex: 0 0 33.33324%;
+        min-width: 33.33324%;
+    }
+    .col-lg-5 {
+        flex: 0 0 41.66655%;
+        min-width: 41.6666%;
+    }
+    .col-lg-6 {
+    flex: 0 0 49.99986%;
+    max-width: 49.999861%;
+    justify-content: space-between;
+    }
+    .col-lg-7 {
+        flex: 0 0 58.33317%;
+        min-width: 58.33317%;
+    }
+    .col-lg-8 {
+        flex: 0 0 66.66648%;
+        min-width: 66.6664%;
+    }
+    .col-lg-9 {
+        flex: 0 0 74.99979%;
+        min-width: 74.99979%;
+    }
+    .col-lg-10 {
+        width: 82%; 
+        min-width: 82%;
+    }
+    .col-lg-11 {
+        width: 91.66666%;
+        min-width: 91.66666%;
+    }
+    .col-lg-12 {
+        flex: 0 0 100%;
+        min-width: 100%;
+    }
+
+
+    /* main offers */
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #fafcfa;
+        position: relative;
+        color: #256245;
+        font-size: 15px;
+        line-height: 30px;
+        font-weight: 400;
+        letter-spacing: 0px;
+    }
+
+    .container {
+        max-width: 1100px;
+        padding: 0 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .row:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    [class*="col-"] {
+        padding: 0 20px;
+    }
+
+
+    /* menu */
+
+
+
+    .header {
+        padding-top: 60px;
+        height: 850px;
+    }
+
+    .container-menu {
+        position: relative;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 45px;
+        border: transparent;
+        z-index: 30;
+    }
+
+    .logo {
+        line-height: 60px;
+        padding: 10px 20px 10px 40px;
+    }
+
+    .logo-icon{
+        margin-top: 5px;
+    }
+
+    .menu-ul {
+        float: right;
+    }
+
+    [class*="menu-li-"] {
+        float: left;
+        padding: 0 20px;
+    }
+
+    .menu-a {
+        text-decoration: none;
+        display: block;
+        line-height: 60px;
+        color: #256245;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 10px 0;
+    }
+
+    .slider-title {
+        position: relative;
+        margin-top: 160px;
+        margin-bottom: 60px;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 75px;
+        z-index: 30;
+    }
+
+    .btn-slider > button {
+        position: relative;
+        width: 233px;
+        height: 70px;
+        background-color: #51a51f;
+        color: white;
+        text-align: center;
+        line-height: 70px;
+        letter-spacing: 1px;
+        border: none;
+        border-radius: 35px;
+        font-size: 16px;
+        z-index: 30;
+    }
+
+    .slider > img {
+        position: absolute;
+        width: 100%;
+        height: 850px;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+/* Main */
+/* Content */
+
+
+    .content {
+        padding-top: 100px;
+        padding-bottom: 95px;
+        width: 100%;
+    }
+
+    .row-columns {
+        padding: 0 20px;
+    }
+
+    .content-title {
+        padding-top: 50px;
+        padding-bottom: 70px;
+       
+    }
+
+    .content-title > h3 {
+        width: 80%; 
+        font-size: 26px;
+        line-height: 45px;
+        font-weight: 600;
+        color: #256245;
+    }
+
+    .theme-diet{
+        padding: 0 1% 40px;
+        color: #51a51f;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+
+    .theme-diet > .col-lg-9 {
+
+    }
+
+    .theme-diet-h4 {
+        padding-top: 2px;
+    }
+
+    .theme-diet-h4-under{
+        padding-top: 14px;
+    }
+
+/* Blog */
+
+
+    .blog-container > [class*="col-"] {
+        padding: 0 10px;
+    }
+    .blog {
+        background-image: url(img/dietitian3-section-bg1.png);
+        width: 100%;
+        background-repeat: repeat;
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+
+    .blog-h3 {
+        width: 50%;
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: 600;
+        color: #256245;
+        margin-bottom: 60px;
+    }
+
+    /* .blog-1 > img, .blog-3 > img, .blod-1-user, .blod-3-user {
+        margin-left: 10px;
+    }
+
+    .blog-2 > img, .blog-4 > img, .blod-2-user, .blod-4-user{
+        margin-left: -10px;
+    } */
+
+    .blog-1, .blog-2, .blog-3, .blog-4 {
+        position: relative;
+        padding: 0 10px;
+    }
+
+    .blog-1 > img, .blog-2 > img, .blog-3 > img, .blog-4 > img {
+        width: 100%;
+    }
+
+    .blod-1-user, .blod-2-user, .blod-3-user, .blod-4-user {
+        position: relative;
+        width: 85%;
+        background-color: #fff;
+        top: -55px;
+        padding: 25px 35px;
+        float: none;
+        margin: 0 auto;
+        z-index: 2;
+    }
+
+    .categories-tag {
+        display: inline-block;
+        padding: 0 5px 5px 0;
+        color: #a8a8a8;
+        margin-bottom: 28px;
+    }
+
+    .categories-tag > a {
+        color: rgba(0,0,0,.6);
+        padding: 8px 12px;
+        border-radius: 20px;
+        text-decoration: none;
+        border: none;
+        background-color: #f2f2f2;
+        font-size: 15px;
+        line-height: 40px;
+        font-weight: 400;
+    }
+
+    .entry-title {
+        color: #256245;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .post-excerpt {
+        margin-bottom: 15px;
+        color: #7f9b8c;
+    }
+
+    .line {
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 20px;
+    }
+
+    .autor {
+        position: relative;
+        top: 6px;
+        margin-right: 6px;
+        border-radius: 50%;
+    }
+    
+    .name > a {
+        color: #51a51f;
+        text-decoration: none;
+        margin-right: 10px
+    }
+
+    .icon-clock {
+        position: relative;
+        top: 3px;
+        opacity: 0.5;
+        margin-right: 6px;
+    }
+
+    .date {
+        color: #a8a8a8;
+    }
+
+    .likes {
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        padding: 4px 13px;
+        border-radius: 20px;
+        background-color: #272727;
+        z-index: 2;
+    }
+
+    .hurt-icon {
+        position: relative;
+        top: 4px;
+        margin: 0 3px;
+    }
+
+    .counter {
+        margin: 0 4px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
